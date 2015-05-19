@@ -1,0 +1,16 @@
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.MemoryQueue.dll
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.MemoryQueue.pdb
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.Common.dll
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.Mongodb.dll
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Microsoft.Practices.Unity.dll
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.Config.dll
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.Common.pdb
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.Mongodb.pdb
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Microsoft.Practices.Unity.xml
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Adhesive.Config.pdb
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\obj\Release\Adhesive.MemoryQueue.csprojResolveAssemblyReference.cache
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\obj\Release\Adhesive.MemoryQueue.dll
+C:\pls\vsonline\Adhesive\Adhesive.MemoryQueue\obj\Release\Adhesive.MemoryQueue.pdb

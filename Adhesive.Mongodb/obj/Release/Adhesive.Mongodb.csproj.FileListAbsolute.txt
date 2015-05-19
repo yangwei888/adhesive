@@ -1,0 +1,14 @@
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Adhesive.Mongodb.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Adhesive.Mongodb.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Adhesive.Common.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Adhesive.Config.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Microsoft.Practices.Unity.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Adhesive.Common.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Adhesive.Config.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Microsoft.Practices.Unity.xml
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\obj\Release\Adhesive.Mongodb.csprojResolveAssemblyReference.cache
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\obj\Release\Adhesive.Mongodb.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mongodb\obj\Release\Adhesive.Mongodb.pdb

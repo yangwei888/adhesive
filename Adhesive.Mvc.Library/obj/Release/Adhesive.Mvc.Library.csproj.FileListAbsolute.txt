@@ -1,0 +1,6 @@
+C:\pls\vsonline\Adhesive\Adhesive.Mvc.Library\obj\Release\Adhesive.Mvc.Library.csprojResolveAssemblyReference.cache
+C:\pls\vsonline\Adhesive\Adhesive.Mvc.Library\bin\Release\Adhesive.Mvc.Library.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mvc.Library\bin\Release\Adhesive.Mvc.Library.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Mvc.Library\bin\Release\System.Web.Mvc.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mvc.Library\obj\Release\Adhesive.Mvc.Library.dll
+C:\pls\vsonline\Adhesive\Adhesive.Mvc.Library\obj\Release\Adhesive.Mvc.Library.pdb

@@ -1,0 +1,219 @@
+﻿[Info] @16:13:07_3607 #1 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @16:13:07_4447 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.RegisterServiceTask' ()
+[Debug] @16:13:07_4447 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.MemoryQueue.Imp.RegisterServiceTask' ()
+[Debug] @16:13:07_4447 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.RegisterServiceTask' ()
+[Debug] @16:13:07_4457 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Server.Imp.RegisterServiceTask' ()
+[Debug] @16:13:07_4457 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.InitServiceTask' ()
+[Info] @16:13:07_4467 #1 - 开始初始化配置服务
+[Error] @16:13:44_3418 #1 - 初始化配置服务失败，异常信息：System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 提供程序未返回 ProviderManifestToken 字符串。 (错误详细信息等于 很可能由 IncludeExceptionDetailInFaults=true 创建的 ExceptionDetail，其值为:
+System.Data.ProviderIncompatibleException: 提供程序未返回 ProviderManifestToken 字符串。 ----> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ----> System.ComponentModel.Win32Exception: 系统找不到指定的文件。
+
+   --- 内部 ExceptionDetail 堆栈跟踪结束 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Attemp...)。
+[Debug] @16:13:44_3418 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.InitServiceTask' (初始化Mongodb客户端服务)
+[Debug] @16:13:44_3418 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Server.Imp.InitServerTask' (初始化Mongodb服务端、进行第一次数据库元数据维护)
+[Error] @16:14:20_9869 #1 - 获取配置项值出错，异常信息：System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 提供程序未返回 ProviderManifestToken 字符串。 (错误详细信息等于 很可能由 IncludeExceptionDetailInFaults=true 创建的 ExceptionDetail，其值为:
+System.Data.ProviderIncompatibleException: 提供程序未返回 ProviderManifestToken 字符串。 ----> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ----> System.ComponentModel.Win32Exception: 系统找不到指定的文件。
+
+   --- 内部 ExceptionDetail 堆栈跟踪结束 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Attemp...)。
+[Error] @16:14:57_6060 #1 - 获取配置项值出错，异常信息：System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 提供程序未返回 ProviderManifestToken 字符串。 (错误详细信息等于 很可能由 IncludeExceptionDetailInFaults=true 创建的 ExceptionDetail，其值为:
+System.Data.ProviderIncompatibleException: 提供程序未返回 ProviderManifestToken 字符串。 ----> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ----> System.ComponentModel.Win32Exception: 系统找不到指定的文件。
+
+   --- 内部 ExceptionDetail 堆栈跟踪结束 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Attemp...)。
+[Info] @16:14:57_6070 #1 - 分布式组件模块 AbstractClient GetClient 开始初始化集群 AdhesiveMemcached
+[Info] @16:14:57_6180 #1 - 分布式组件模块 ClientNode ClientNode 开始初始化一个新的节点：MemcachedNode1
+[Error] @16:15:02_6283 #1 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Warning] @16:15:02_6293 #1 - 分布式组件模块 ClientNode CloseClientSocketAndNode 节点 MemcachedNode1 已经无效
+[Warning] @16:15:02_6313 #1 - 分布式组件模块 ClientCluster NodeError 集群 AdhesiveMemcached 中节点 MemcachedNode1 出现错误，尝试从集群中移除节点
+[Error] @16:15:02_6323 #1 - 分布式组件模块 ClientCluster NodeError 严重错误，集群 AdhesiveMemcached 中的所有节点都已经失效！
+[Warning] @16:15:02_6333 #1 - 分布式组件模块 ClientNode Destory 节点 MemcachedNode1 已经清理完毕
+[Debug] @16:15:02_6363 #1 - 分布式组件模块 ClientCluster InitNodeLocator 为集群 AdhesiveMemcached 初始化一致性哈希表完成
+[Warning] @16:15:02_6363 #1 - 分布式组件模块 ClientCluster NodeError 集群 AdhesiveMemcached 中节点 MemcachedNode1 出现错误，已经从集群中移除
+[Warning] @16:15:02_6363 #1 - 分布式组件模块 ClientNode Init 节点 MemcachedNode1 中Init尝试创建一个新的socket失败
+[Info] @16:15:02_6363 #1 - 分布式组件模块 ClientNode Init 节点 MemcachedNode1 初始化 0 个socket
+[Info] @16:15:02_6363 #1 - 分布式组件模块 ClientNode ClientNode 开始初始化一个新的节点：MemcachedNode2
+[Info] @16:15:07_6185 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:15:07_6195 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:15:07_6375 #1 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Warning] @16:15:07_6375 #1 - 分布式组件模块 ClientNode CloseClientSocketAndNode 节点 MemcachedNode2 已经无效
+[Warning] @16:15:07_6375 #1 - 分布式组件模块 ClientCluster NodeError 集群 AdhesiveMemcached 中节点 MemcachedNode2 出现错误，尝试从集群中移除节点
+[Error] @16:15:12_6198 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:15:12_6198 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Warning] @16:15:12_6198 #1 - 分布式组件模块 ClientNode Destory 节点 MemcachedNode2 已经清理完毕
+[Debug] @16:15:12_6248 #1 - 分布式组件模块 ClientCluster InitNodeLocator 为集群 AdhesiveMemcached 初始化一致性哈希表完成
+[Warning] @16:15:12_6258 #1 - 分布式组件模块 ClientCluster NodeError 集群 AdhesiveMemcached 中节点 MemcachedNode2 出现错误，已经从集群中移除
+[Warning] @16:15:12_6258 #1 - 分布式组件模块 ClientNode Init 节点 MemcachedNode2 中Init尝试创建一个新的socket失败
+[Info] @16:15:12_6258 #1 - 分布式组件模块 ClientNode Init 节点 MemcachedNode2 初始化 0 个socket
+[Debug] @16:15:12_6328 #1 - 分布式组件模块 ClientCluster InitNodeLocator 为集群 AdhesiveMemcached 初始化一致性哈希表完成
+[Info] @16:15:22_6204 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:15:22_6204 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:15:27_6207 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:15:27_6207 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:15:27_6207 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:15:27_6207 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:15:32_6220 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:15:32_6220 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:15:42_6225 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:15:42_6225 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:15:47_6228 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:15:47_6228 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:15:47_6228 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:15:47_6228 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:15:49_2859 #1 - 获取配置项值出错，异常信息：System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 提供程序未返回 ProviderManifestToken 字符串。 (错误详细信息等于 很可能由 IncludeExceptionDetailInFaults=true 创建的 ExceptionDetail，其值为:
+System.Data.ProviderIncompatibleException: 提供程序未返回 ProviderManifestToken 字符串。 ----> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ----> System.ComponentModel.Win32Exception: 系统找不到指定的文件。
+
+   --- 内部 ExceptionDetail 堆栈跟踪结束 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Attemp...)。
+[Info] @16:15:49_2919 #1 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 开始一次维护
+[Info] @16:15:49_4979 #1 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 完成一次维护，耗时 205 毫秒
+[Info] @16:15:49_4979 #1 - AdhesiveFramework启动完成！...版本号：2012-06-01-08
+[Info] @16:15:49_4979 #1 - 开始启动Mongodb数据服务
+[Error] @16:15:49_5119 #14 - 获取配置项值出错，异常信息：System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 提供程序未返回 ProviderManifestToken 字符串。 (错误详细信息等于 很可能由 IncludeExceptionDetailInFaults=true 创建的 ExceptionDetail，其值为:
+System.Data.ProviderIncompatibleException: 提供程序未返回 ProviderManifestToken 字符串。 ----> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ----> System.ComponentModel.Win32Exception: 系统找不到指定的文件。
+
+   --- 内部 ExceptionDetail 堆栈跟踪结束 ---
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions u...)。
+[Error] @16:15:49_5219 #1 - Mongodb数据服务启动失败，异常信息：System.InvalidOperationException: 服务“Adhesive.Mongodb.Server.Imp.MongodbServer”有零个应用程序(非基础结构)终结点。这可能是因为未找到应用程序的配置文件，或者在配置文件中未找到与服务名称匹配的服务元素，或者服务元素中未定义终结点。
+   在 System.ServiceModel.Description.DispatcherBuilder.EnsureThereAreApplicationEndpoints(ServiceDescription description)
+   在 System.ServiceModel.Description.DispatcherBuilder.InitializeServiceHost(ServiceDescription description, ServiceHostBase serviceHost)
+   在 System.ServiceModel.ServiceHostBase.InitializeRuntime()
+   在 System.ServiceModel.ServiceHostBase.OnBeginOpen()
+   在 System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 Adhesive.Mongodb.Server.Imp.ConsoleHost.Program.Main(String[] args) 位置 c:\pls\vsonline\Adhesive\Adhesive.Mongodb.Server.Imp.ConsoleHost\Program.cs:行号 18
+[Error] @16:15:52_6231 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:15:52_6231 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:16:02_6237 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:16:02_6237 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:16:07_6240 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:16:07_6240 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:16:07_6240 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:16:07_6240 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:16:12_6243 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:16:12_6243 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:16:22_6248 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:16:22_6248 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:16:27_6251 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:16:27_6251 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:16:27_6251 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:16:27_6251 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:16:32_6264 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:16:32_6264 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:16:42_6270 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:16:42_6270 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:16:47_6273 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:16:47_6273 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:16:47_6273 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:16:47_6273 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Info] @16:16:49_5134 #14 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 开始一次维护
+[Info] @16:16:49_5204 #14 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 完成一次维护，耗时 7 毫秒
+[Error] @16:16:52_6275 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:16:52_6275 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:17:02_6281 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:17:02_6281 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:17:07_6284 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:17:07_6284 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:17:07_6284 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:17:07_6284 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:17:12_6287 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:17:12_6287 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:17:22_6293 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:17:22_6293 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:17:26_1935 #14 - 获取配置项值出错，异常信息：System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 提供程序未返回 ProviderManifestToken 字符串。 (错误详细信息等于 很可能由 IncludeExceptionDetailInFaults=true 创建的 ExceptionDetail，其值为:
+System.Data.ProviderIncompatibleException: 提供程序未返回 ProviderManifestToken 字符串。 ----> System.Data.SqlClient.SqlException: 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ----> System.ComponentModel.Win32Exception: 系统找不到指定的文件。
+
+   --- 内部 ExceptionDetail 堆栈跟踪结束 ---
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.Attemp...)。
+[Error] @16:17:27_6295 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:17:27_6295 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:17:27_6295 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:17:27_6295 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:17:32_6298 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:17:32_6298 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:17:42_6304 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:17:42_6304 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:17:47_6307 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:17:47_6307 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:17:47_6307 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:17:47_6307 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:17:52_6310 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:17:52_6310 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:18:02_6316 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:18:02_6316 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Error] @16:18:07_6318 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:18:07_6318 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:18:07_6318 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:18:07_6318 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接
+[Error] @16:18:12_6321 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.42:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:18:12_6321 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode2 并没有恢复
+[Info] @16:18:22_6327 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode1 是否已经恢复
+[Debug] @16:18:22_6327 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode1 获取一个短连接
+[Info] @16:18:26_1949 #14 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 开始一次维护
+[Info] @16:18:26_2029 #14 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 完成一次维护，耗时 8 毫秒
+[Error] @16:18:27_6330 #7 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.41:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214
+[Info] @16:18:27_6330 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 节点 MemcachedNode1 并没有恢复
+[Info] @16:18:27_6330 #7 - 分布式组件模块 ClientCluster TryRecoverNodeThreadAction 集群 AdhesiveMemcached 开始检查节点 MemcachedNode2 是否已经恢复
+[Debug] @16:18:27_6330 #7 - 分布式组件模块 ClientNode GetDirectClientSocket 节点 MemcachedNode2 获取一个短连接

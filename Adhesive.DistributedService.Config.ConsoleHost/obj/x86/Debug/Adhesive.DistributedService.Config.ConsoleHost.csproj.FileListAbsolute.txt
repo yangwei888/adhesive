@@ -1,0 +1,1 @@
+C:\pls\vsonline\Adhesive\Adhesive.DistributedService.Config.ConsoleHost\bin\Debug\Adhesive.DistributedService.Config.ConsoleHost.exe.config

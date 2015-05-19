@@ -1,0 +1,14 @@
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Adhesive.Config.dll
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Adhesive.Config.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Adhesive.Common.dll
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Microsoft.Practices.Unity.dll
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Adhesive.Common.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Microsoft.Practices.Unity.xml
+C:\pls\vsonline\Adhesive\Adhesive.Config\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\pls\vsonline\Adhesive\Adhesive.Config\obj\Release\Adhesive.Config.csprojResolveAssemblyReference.cache
+C:\pls\vsonline\Adhesive\Adhesive.Config\obj\Release\Adhesive.Config.dll
+C:\pls\vsonline\Adhesive\Adhesive.Config\obj\Release\Adhesive.Config.pdb

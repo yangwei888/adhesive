@@ -1,0 +1,6 @@
+C:\pls\vsonline\Adhesive\Adhesive.Domain\bin\Release\Adhesive.Domain.dll
+C:\pls\vsonline\Adhesive\Adhesive.Domain\bin\Release\Adhesive.Domain.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Domain\bin\Release\EntityFramework.dll
+C:\pls\vsonline\Adhesive\Adhesive.Domain\bin\Release\EntityFramework.xml
+C:\pls\vsonline\Adhesive\Adhesive.Domain\obj\Release\Adhesive.Domain.dll
+C:\pls\vsonline\Adhesive\Adhesive.Domain\obj\Release\Adhesive.Domain.pdb

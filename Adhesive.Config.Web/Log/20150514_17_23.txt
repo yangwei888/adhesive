@@ -1,0 +1,7 @@
+﻿[Info] @17:23:13_3122 #1 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @17:23:13_3542 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.MemoryQueue.Imp.RegisterServiceTask' ()
+[Debug] @17:23:13_3552 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.AppInfoCenter.Imp.RegisterServiceTask' (注册日志、异常、性能、状态服务)
+[Debug] @17:23:13_3562 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.RegisterServiceTask' ()
+[Debug] @17:23:13_3562 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.RegisterServiceTask' ()
+[Debug] @17:23:13_3562 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.InitServiceTask' ()
+[Info] @17:23:13_3582 #1 - 开始初始化配置服务

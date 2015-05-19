@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>c:\Adhesive\AdminWeb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Adhesive.Alarm.Common.dll">
+      <publishTime>05/18/2015 13:11:01</publishTime>
+    </File>
+    <File Include="bin/Adhesive.AppInfoCenter.dll">
+      <publishTime>05/18/2015 13:11:00</publishTime>
+    </File>
+    <File Include="bin/Adhesive.AppInfoCenter.Imp.dll">
+      <publishTime>05/18/2015 13:11:01</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Common.dll">
+      <publishTime>05/18/2015 13:10:59</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Config.dll">
+      <publishTime>05/18/2015 13:10:59</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Config.Imp.dll">
+      <publishTime>05/18/2015 13:11:00</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Domain.dll">
+      <publishTime>05/18/2015 13:10:59</publishTime>
+    </File>
+    <File Include="bin/Adhesive.MemoryQueue.dll">
+      <publishTime>05/18/2015 13:11:00</publishTime>
+    </File>
+    <File Include="bin/Adhesive.MemoryQueue.Imp.dll">
+      <publishTime>05/18/2015 13:11:01</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Mongodb.dll">
+      <publishTime>05/18/2015 13:11:00</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Mongodb.Imp.dll">
+      <publishTime>05/18/2015 13:11:01</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Mongodb.Server.dll">
+      <publishTime>05/18/2015 13:11:00</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Mongodb.Silverlight.Web.dll">
+      <publishTime>05/18/2015 13:13:21</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Persistence.dll">
+      <publishTime>05/18/2015 13:11:00</publishTime>
+    </File>
+    <File Include="bin/Adhesive.Persistence.Imp.dll">
+      <publishTime>05/18/2015 13:11:00</publishTime>
+    </File>
+    <File Include="bin/Dimac.JMail.dll">
+      <publishTime>06/19/2012 11:43:19</publishTime>
+    </File>
+    <File Include="bin/Dimac.JMail.Smtp.dll">
+      <publishTime>06/19/2012 11:43:25</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/19/2012 11:38:33</publishTime>
+    </File>
+    <File Include="bin/Fost.MobileMessage.dll">
+      <publishTime>06/19/2012 11:43:24</publishTime>
+    </File>
+    <File Include="bin/HTB.DevFx.BaseFx.dll">
+      <publishTime>06/19/2012 11:43:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>06/19/2012 11:38:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>06/19/2012 11:39:22</publishTime>
+    </File>
+    <File Include="ClientBin/Adhesive.Mongodb.Silverlight.xap">
+      <publishTime>06/19/2012 11:36:25</publishTime>
+    </File>
+    <File Include="Config/AdhesiveConfig.config">
+      <publishTime>05/18/2015 10:56:34</publishTime>
+    </File>
+    <File Include="DataService.svc">
+      <publishTime>06/19/2012 11:36:20</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/19/2012 11:36:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/19/2012 11:36:27</publishTime>
+    </File>
+    <File Include="Silverlight.js">
+      <publishTime>06/19/2012 11:36:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/18/2015 13:13:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

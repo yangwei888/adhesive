@@ -1,0 +1,2 @@
+﻿[Info] @14:36:05_1003 #8 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @14:36:11_9067 #8 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Server.InitServiceTask' ()

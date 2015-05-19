@@ -1,0 +1,22 @@
+﻿[Info] @15:13:41_3851 #21 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Info] @15:13:41_4631 #21 - 开始初始化配置服务
+[Info] @15:13:41_5255 #21 - 开始批量加载配置项
+[Info] @15:13:41_9935 #21 - 加载第 1 批配置项结束
+[Info] @15:13:41_9935 #21 - 结束批量加载配置项，共加载 462 个配置项。
+[Info] @15:13:42_0247 #21 - 结束初始化配置服务
+[Info] @15:13:42_0247 #21 - 开始初始化持久化服务
+[Warning] @15:13:42_3099 #21 - System.Data.SqlClient.SqlException (0x80131904): 数据库中已存在名为 'AlarmItem' 的对象。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 System.Data.Objects.ObjectContext.ExecuteStoreCommand(String commandText, Object[] parameters)
+   在 System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(String sql, Object[] parameters)
+   在 System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   在 Adhesive.Persistence.Imp.InitServiceTask.<Execute>b__1(Type e) 位置 c:\pls\vsonline\Adhesive\Adhesive.Persistence.Imp\InitServiceTask.cs:行号 32
+ClientConnectionId:783e24e1-9e75-43d7-a990-33c7cffe11d6
+[Info] @15:13:42_3099 #21 - 初始化持久化服务完成
+[Info] @15:13:42_3099 #21 - AdhesiveFramework启动完成！...版本号：2012-06-01-08

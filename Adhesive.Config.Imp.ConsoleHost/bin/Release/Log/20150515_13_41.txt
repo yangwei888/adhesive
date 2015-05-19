@@ -1,0 +1,5 @@
+﻿[Info] @13:41:38_8965 #9 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @13:41:41_7717 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Server.InitServiceTask' ()
+[Info] @13:41:41_7737 #9 - 开始启动通用配置服务
+[Info] @13:41:42_7528 #9 - 完成启动通用配置服务
+[Info] @13:41:45_2189 #9 - AdhesiveFramework启动完成！...版本号：2012-06-01-08

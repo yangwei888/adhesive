@@ -1,0 +1,74 @@
+﻿[Info] @16:06:09_1124 #9 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @16:06:09_2840 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.RegisterServiceTask' ()
+[Debug] @16:06:09_2840 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.MemoryQueue.Imp.RegisterServiceTask' ()
+[Debug] @16:06:09_2840 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.RegisterServiceTask' ()
+[Debug] @16:06:09_2840 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Server.Imp.RegisterServiceTask' ()
+[Debug] @16:06:09_2840 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.InitServiceTask' ()
+[Info] @16:06:09_2840 #9 - 开始初始化配置服务
+[Info] @16:06:09_8144 #9 - 开始批量加载配置项
+[Info] @16:06:09_9256 #9 - 加载第 1 批配置项结束
+[Info] @16:06:09_9412 #9 - 结束批量加载配置项，共加载 469 个配置项。
+[Info] @16:06:09_9412 #9 - 结束初始化配置服务
+[Debug] @16:06:09_9412 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.InitServiceTask' (初始化Mongodb客户端服务)
+[Debug] @16:06:09_9412 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Server.Imp.InitServerTask' (初始化Mongodb服务端、进行第一次数据库元数据维护)
+[Debug] @16:06:09_9412 #12 - 开始配置项缓存同步
+[Debug] @16:06:09_9568 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Info] @16:06:09_9724 #9 - 分布式组件模块 AbstractClient GetClient 开始初始化集群 AdhesiveMemcached
+[Info] @16:06:09_9724 #9 - 分布式组件模块 ClientNode ClientNode 开始初始化一个新的节点：MemcachedNode1
+[Debug] @16:06:20_2515 #12 - 开始配置项缓存同步
+[Debug] @16:06:21_3435 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:06:33_5467 #12 - 开始配置项缓存同步
+[Debug] @16:06:34_8903 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Info] @16:06:34_8903 #9 - 分布式组件模块 ClientNode Init 节点 MemcachedNode1 初始化 5 个socket
+[Info] @16:06:35_3271 #9 - 分布式组件模块 ClientNode ClientNode 开始初始化一个新的节点：MemcachedNode2
+[Info] @16:06:35_3427 #9 - 分布式组件模块 ClientNode Init 节点 MemcachedNode2 初始化 5 个socket
+[Debug] @16:06:35_3427 #9 - 分布式组件模块 ClientCluster InitNodeLocator 为集群 AdhesiveMemcached 初始化一致性哈希表完成
+[Info] @16:06:36_0759 #9 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 开始一次维护
+[Info] @16:06:36_1383 #9 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 完成一次维护，耗时 70 毫秒
+[Info] @16:06:42_6398 #9 - AdhesiveFramework启动完成！...版本号：2012-06-01-08
+[Info] @16:06:43_4739 #9 - 开始启动Mongodb数据服务
+[Error] @16:06:43_5943 #9 - Mongodb数据服务启动失败，异常信息：System.InvalidOperationException: 服务“Adhesive.Mongodb.Server.Imp.MongodbServer”有零个应用程序(非基础结构)终结点。这可能是因为未找到应用程序的配置文件，或者在配置文件中未找到与服务名称匹配的服务元素，或者服务元素中未定义终结点。
+   在 System.ServiceModel.Description.DispatcherBuilder.EnsureThereAreApplicationEndpoints(ServiceDescription description)
+   在 System.ServiceModel.Description.DispatcherBuilder.InitializeServiceHost(ServiceDescription description, ServiceHostBase serviceHost)
+   在 System.ServiceModel.ServiceHostBase.InitializeRuntime()
+   在 System.ServiceModel.ServiceHostBase.OnBeginOpen()
+   在 System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open()
+   在 Adhesive.Mongodb.Server.Imp.ConsoleHost.Program.Main(String[] args) 位置 c:\pls\vsonline\Adhesive\Adhesive.Mongodb.Server.Imp.ConsoleHost\Program.cs:行号 18
+[Debug] @16:06:44_8907 #12 - 开始配置项缓存同步
+[Debug] @16:06:45_0088 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:06:55_0238 #12 - 开始配置项缓存同步
+[Debug] @16:06:55_1018 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:07:05_1110 #12 - 开始配置项缓存同步
+[Debug] @16:07:05_2510 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:07:15_2529 #12 - 开始配置项缓存同步
+[Debug] @16:07:15_3797 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:07:25_3801 #12 - 开始配置项缓存同步
+[Debug] @16:07:25_3851 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:07:35_3968 #12 - 开始配置项缓存同步
+[Debug] @16:07:35_4124 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Info] @16:07:39_2850 #18 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 开始一次维护
+[Info] @16:07:39_2850 #18 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 完成一次维护，耗时 7 毫秒
+[Debug] @16:07:45_4248 #12 - 开始配置项缓存同步
+[Debug] @16:07:45_4248 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:07:55_4363 #12 - 开始配置项缓存同步
+[Debug] @16:07:55_5611 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:08:05_5704 #12 - 开始配置项缓存同步
+[Debug] @16:08:05_7576 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:08:15_7672 #12 - 开始配置项缓存同步
+[Debug] @16:08:15_9408 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:08:25_9477 #12 - 开始配置项缓存同步
+[Debug] @16:08:26_0569 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:08:36_0690 #12 - 开始配置项缓存同步
+[Debug] @16:08:36_1158 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Info] @16:08:39_2864 #18 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 开始一次维护
+[Info] @16:08:39_2934 #18 - Mongodb数据服务服务端模块 MongodbServerMaintainceCenter 服务器 对服务器 'Main' 完成一次维护，耗时 7 毫秒
+[Debug] @16:08:46_1278 #12 - 开始配置项缓存同步
+[Debug] @16:08:46_3480 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:08:56_3517 #12 - 开始配置项缓存同步
+[Debug] @16:08:56_4725 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:09:06_4728 #12 - 开始配置项缓存同步
+[Debug] @16:09:06_5654 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。
+[Debug] @16:09:16_5662 #12 - 开始配置项缓存同步
+[Debug] @16:09:16_8270 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E7,休眠 10000 ms。

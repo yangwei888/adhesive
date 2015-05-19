@@ -1,0 +1,9 @@
+﻿[Info] @13:24:44_0665 #6 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @13:24:59_4404 #6 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Server.InitServiceTask' ()
+[Info] @13:24:59_4414 #6 - 开始启动通用配置服务
+[Info] @13:25:00_4494 #6 - 完成启动通用配置服务
+[Info] @13:25:03_4546 #6 - AdhesiveFramework启动完成！...版本号：2012-06-01-08
+[Info] @13:25:09_2429 #6 - AdhesiveFramework开始清理...
+[Debug] @13:25:09_2469 #6 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.Config.Server.InitServiceTask' ()
+[Info] @13:25:09_2479 #6 - 开始结束通用配置服务
+[Info] @13:25:09_3249 #6 - AdhesiveFramework清理完成！

@@ -1,0 +1,942 @@
+﻿[Info] @15:44:41_9737 #1 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @15:44:42_0049 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.MemoryQueue.Imp.RegisterServiceTask' ()
+[Debug] @15:44:42_0049 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.RegisterServiceTask' ()
+[Debug] @15:44:42_0049 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.AppInfoCenter.Imp.RegisterServiceTask' (注册日志、异常、性能、状态服务)
+[Debug] @15:44:42_0049 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.RegisterServiceTask' ()
+[Debug] @15:44:42_0049 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.InitServiceTask' ()
+[Info] @15:44:42_0049 #1 - 开始初始化配置服务
+[Info] @15:44:42_2857 #1 - 开始批量加载配置项
+[Info] @15:44:42_8005 #1 - 加载第 1 批配置项结束
+[Info] @15:44:42_8005 #1 - 结束批量加载配置项，共加载 463 个配置项。
+[Info] @15:44:42_8317 #1 - 结束初始化配置服务
+[Debug] @15:44:42_8317 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.AppInfoCenter.Imp.InitServiceTask' (挂载应用程序未处理异常、启动页面性能统计服务)
+[Debug] @15:44:42_8317 #1 - 请调用AppInfoCenterService.RegisterHealthAction()注册健康检测回调方法！
+[Debug] @15:44:42_8317 #1 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.InitServiceTask' (初始化Mongodb客户端服务)
+[Info] @15:44:42_8317 #1 - AdhesiveFramework启动完成！...版本号：2012-06-01-08
+[Debug] @15:44:42_8317 #9 - 开始配置项缓存同步
+[Debug] @15:44:42_8473 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0D-9A,休眠 10000 ms。
+[Debug] @15:44:52_8569 #9 - 开始配置项缓存同步
+[Info] @15:44:52_8725 #9 - 获取 306 个变更的配置项
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：fd3048dbc1374fe2723ffc5050b1618d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：73712eda8fe7c159ede98b45a5f628a8,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：48b94cb017d36b5c9bb1b6262fd4f77e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c9f68ea90a0d31de37c51402d42413d2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9968bbda07c0a9212f0da0f6e2ae8d08,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0705f794d4886c14215deb0692532bb0,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1e5d2d553b9ca9846e9845086f9801bf,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9b0eba1279747c98213a7d4b0039ecc3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9a17c2b5d6db05f3a0a021a67ae8e73c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：256a3de36f59f09a5294e67d3db14bd2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：64e6600076ae0e5a9e4bcca2cdc3c8c1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：17291c8d90a4d950e9e6e18e5f3cf1cb,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：32c3b7afbc897abcf70fc8897b594de7,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f19debb61ee09eda3001f840c7a081cc,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d9b3d51e57121d224f00b5380e79c6e6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1bf3721b458448c7d85547c6667e4ffd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e24f5ab554d988c8587f266aa1f8e5f1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：475dea2dc84d9e90dbfc21132463228c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：da644c7d1dec23f638e6adefe6daefca,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：26a5f7e793086fd6b61ce67ddf2101e1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：71f0612ab946e79c16d64a8bd7f58709,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：524a65722b3c2fe81e183b0bb03c52e4,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：69d951466694aac161f614c05efd48f0,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1b004ce216263eef1b9d0c9de78ed7ab,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：faea9075156e71a8f7d9d011cbcf33f4,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：21c575f3a1ef1d9a756c8d50cb30e394,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f011bbd7ea0d3eeb9af5ca149f7ff75f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2ed122c44bb8fb20bc535ec88068b420,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ce60dd182eb86e29cfb805c6a5887050,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5a1aaa42efdbc4162efd7f3e97aea9c7,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7886a0cce22eb6e5d14d135152ae9bba,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：34931fd0a03efdb37e4eba21436ccdf5,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：af45cb2c47219188dc195b395d464460,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a9c48afbaaee97b8dcc5306a8c793fb2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5c17ba707610676aee665282159210cd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a77dacc283b247bcff6caf892e742190,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：add1c4cb8d2330f232ec364174a9f31c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3e7a10eea82de29954d60acd5362d5e6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：553a4fac9d002634027ab1bdcaee25da,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2a82c70526008477e2153986d08bc8f3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6c66d1482d88f1b759c16dd70611cf44,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6297e5f8e29e4bfdadff17a8effffd24,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1f5f585b9cd0890cd88d264a73b0be4e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9856d56158adc2578e476d3441322c57,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f3dbb26866218b69cae453846edc3b20,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3b8cc38eb5824d7ef016cfa8fdd94d65,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bb6fbc5ce455d433a4e26208b6daaa14,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：8d857b0f0ae6156f6dd875f80fa358bf,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c13c600f97248757f86c47136e3f6e7e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：62ea1ce1fa1620810646fdad62fc0215,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ac02c43e4abea283b74d4b3e82b30e52,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bb165050e6d3404fd05f68b31fd1ae31,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：47015a2a5c08f2a34897de391925b41b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：504ad4ca5dda404b5624f70455c781df,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：289d923c09bcb6dedbdbc1d09233b17e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：43969a8826c04404214217ac3c25df3d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：009b8a504a206cdceae2d3f03d91c0f1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0ec5f8ba1b05ffaf331fe93a070a59ba,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：28515ab872dd82782279aef19355eeee,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7bf335ac0faaa46a0510f2abe7734b9d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a2393e1dbd65c47c967f872e3206aa54,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0a1ef01cebe1b0404d228a6691dc8e46,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：4f8aecd4090547e2d80224ceb00aae8c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d7ba784ea7c95ec6c8dcf8b4b7abb8f4,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f693d85fb9d59fc43ea68dfb107f7cd8,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：533c65cfec867807d0697f8bc43b5b00,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3e7b5cbaadc9916306547a7575d685cb,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：97da7f31a5395bb188bda366ca952a4f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：18c8935f8c25d89559a56cc9c4506225,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：23642ba7e0f092d5cf5c5fad3f057d1d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a2723923abfe7f1cbf2783c728db1f5b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：43af2587d46bfa8194a468904df68993,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6ba86abd064474fdf2c069c10e5859f3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d0375cb954e0e3a2934ab7c0722cc317,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6c1e0aa41c9cae4bc104a2fdf88ad1e5,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：071f4abc50d19b5a384bc25197d0552f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：737821f2a02664bbfb3208ec2398c593,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e429f0f61b7cbdab6f53fae7e82b1657,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：60696e2f76dd8cbb03a18feabbe6197d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e9805d6563523e9e766e1afa77df6ccb,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ac1e47fe3f41edd0eb1ec2c688eb3ea9,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9b7d91b784f5d80bf209c1bbfaa6c230,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2cd65b2e54e10a56e9abc90d92f77b90,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1bf3175605d02acf044fb912f121aa0d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：27f26e6370408bad2b1d3862d243dff6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2cf13f6a8f7d976b56b7d273d69c0037,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：cddb0fef8d97f74433360f5fb58d764f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e9d6a5f88101fe61d859cd7e2026b247,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9f127cc9a5902ab88adfbf0e2fec2d78,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：657e30aa40e1700a6d96f816c69aa48e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d7153e5854f9b0825e11c43c617f22a7,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c593ccd29e117d1ca5e2a79bc747d1e5,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：368934f3eade106166ad19e486de0b50,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5aa66b11bf5264289ff5d68f752d6e1f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9a57cc133f79a4cfabd350c853beadec,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bd4d5f13cc8689d9c9dcfec24aa8a208,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d0643d979e0835a80dd0c89cff0f2a11,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：99113e329b78a30d435f91f23b2bc956,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：82bf723406407a56ccf297bbad91755e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2ee2d25340a380fd94aba07b8def4862,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c67ff996cb41e8816af0ab52af33f920,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2f8e8920bcac0552ecb443f64f799893,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b62e5a609391134311e78ee7f8a514f3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5630f41a934556433cffc29efb4de61c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：de8f89530fc94a563a5bd80d0f5cddba,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bb205fae1977cace0ecd07c05523ce90,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：8d2deedb64f7ba479e29417f2ab4d2f6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9d9bc6df360d2ebf7523283c9386a0cd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：518d348966e995773af18385a2b9aac4,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f7a2a44706bd75c17114a8f940bf3c36,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a7cd31ae16e4d2212e95a8a57542ac30,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7b74f741a956629687c2269c92161868,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：92efdc2b1fb6b0d8deeb035ff29cdb12,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f5378731af9ec21e0215c9ecc313f0d1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7ace05857f6aae242b93029cadbbc180,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e3c85324cc459879a5641ba886302ebb,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b42c545fc060539f6a5946822c6773d5,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f94e839f06079017ea87d693d03e2139,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：391db8eb7dc6ec7607a41e0cde477005,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：59449932ca3b8d5e9fa9599515fd6d83,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：596402c8f40b83d89256a9a900ba278d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b81e9841e7298d398b5cd303eaf3d460,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d4b59abf9032b11d7f7be4d9288b7211,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6ac4b805d17ff71d62fdbf12e9b35a79,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：77aefdcf457e63ddd8227d460929d5b3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：cec92211917234c83da928310d315f50,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：190d4e9b079e8135546a3819aace8403,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c284462348928dfc3a20f399ac61c400,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：14da4080f0bf8544f60b508f04a7c0df,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ed9accee6bc406bacbdbc548b0811fb2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c81ee2e092c8010e5688b4c300f08bb1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：83b4c80c28fd865131f6cbec11d5ef3b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2bd8a2877797c5dc89bd60ca0d018752,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3f716f7216900675e2fccf6581106070,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d46470d72e301610eda25130cac312c2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1c628c88e348e029e4201a79316ff780,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：59705456458b935a0a53f3854669280e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2071bb48aede50f0cd4fa4eafe6b90dd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ebb985048daac358ac3d2ca40f5894f3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a6b69a856c0320f43ed65fee19e72e9e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2ae0427ad5401a46731e5baf03ed899d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3f413c98904f485fe61ff0148237d934,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1bd8e80579ae5ebda4c97f4a52c2b13d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e94b9779de5dc44a15c46365c3d15107,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：93ac23dcd081af500a06ee71fa16864c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b67cb507890473985f311df73977c5bc,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3df10357b00a516c57c85c399ad4e28c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9c54a653f474562caaa24e2d838a1b70,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5c97b6a9f171879264fbef13bbfd21ea,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：061dd28d2e424525a48427c808276ca5,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：30bfb65bee1e188a327d6ac8e2c48179,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：dce5871d18c2eb456a659ce16df16a0a,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ba396e7db89caa357c54539fbcd14f14,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0ce11869578c0368a36431d33d8ad18f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b1aa0fda6d7459c7d81d57eaa8d2d45c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：db60c0ff8fad27632e7a69cfd1c6dbd6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3a933e73e22c6659c2e0ba08ea3df0f2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6c8d716abd8ee507a428b3c21b457b94,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e006fb756d41b2fc1e3c866ff7c0288e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：934ba7f29cd76b429ce20bf48b287d7d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2e74eec455dd0917d0537c8df5851c46,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：04f007ce01ecca3a5da0cddb64439dfb,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：20c77154c175be64b668d301258b2c8a,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d71a2b8495a4aa171978b2c7cac33e9e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2963900b3a7828f42006cb7576cce92f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6b18d5caf91c0583118ebc8833777584,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：00a724db45efa4efd4205f17a393cb6e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：de9467dff0626ad2f23ca1fe08cd62fa,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：28e36161178d9c7c42bd7e9e5140d933,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：8db99b7c3879763d835614d9f3c1eca5,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：fb143c8246bd54c66da66c3e6d0aaa52,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：372bab9aabf48e2f60d478b02add9bc2,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b38c6cf18d16e5d197161a3aba4ebd84,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：19747cfca6c9513c28261fcce816e270,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c2ec95e4e40b42961f6a640982cb3105,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：94c1df363efa22fd2f01d02e060c322b,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c6b8f07b1ef329492d65913314c04d3c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3f478919133d9da6e90f858096f00f31,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：927274f271fbfe630d836df1ee29a628,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：41e68ed59d7bdd00c5a45894bac430a0,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5df4fc0bd022dfaad7015d77c71cecd2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0bc34f4c966c2ee54aa7eb1c9cc66302,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2b90293d20af845fb5ff6ef8976876e7,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e38b4978c6690964026c929dc5d98c5c,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：436110ba03a8a523048f84f559311055,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0a9f25c4c37980e00a59ad478ad14252,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ea0b733473f5b674e5d741b7df4669d1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：fe30a5128d1a2126e0228aa84f8d826c,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：293ed69c0486b9c0ce380b8c2a9f23fd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：dcea5f20952175088f177be66a12a433,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7ca38ab04a61d80b0d9763f1afb2e79f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：98b2e7554a4d251668a9bc90920753c0,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7eb0967bc4ac914f22c52ab9274d3580,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a63d0176f35de7574d36192e69fd88cd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：dc4639349949e357f3f34aa182a5bb62,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e991043c0d9c828753d0e4af6a5aabac,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：dd17d66da5b2349ed1d22d59cfda02f8,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2bc3d9ccaeb9d672aba3b4d15789f9d3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：941f9c123455ba399decf198d0d90d90,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：63d12ef3483ed59815f7eff2922d3f82,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6b443ee1e861ac046935bbab96a26634,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：afe121ed77d78de302019bcd97a621ba,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3c87c41aa160e1467e73dedd8f73b351,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：4a7a28707edb71bdeefd6b44a97620e1,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：876450d582bb4eb3e73df344a7a62893,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：fb0510b313538b853545daebd51e49a5,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9b2361eedd4f40f4e0d79a696fcf1fbf,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：49c4dabc1b7401291dad8f7865fee2ec,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c58e60d92e0687325d63b9023373f2a3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bd68aaa06dca5e16f62fc6c671046198,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e400df665509e07697add05d9f556d2a,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0e548742f7fe0fd3fdff84145980126b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5e217a3db30f9ad38912e53f1fefe304,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：49ee18d99e594e4e58a8f7ea265a9247,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2239cbfb04c264c0730be3f5b9eb1235,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：73b9549bd774acac2f00a09c07ef9f78,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：78fac36155c505f797ee1be514bd9b96,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f4767474f2f6c953a6f3d61bf55700bd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：93d41f3df9c2ff2893b5a62e1d1dcb8a,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7235c0d05cfcb4e81760f18212fbf5bc,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0d20e050a726e7537297b7bf09fe9c5f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：eb4ca5d10ed0aa3865a543e7bf1761fa,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b74d19a51bc4d0964a9b4a3d4c6066f9,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：cdd4843eadac72ff3490603762c6b977,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5672a72c62a2f2af25ae6904e18a5bad,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：51fdd4765ad102b0bf3531be26aa1514,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a28157dec36560281492e44544723e1a,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f33c986cbbe60f1fb104482e1115e882,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：30e93bab2864b2ac08013d49966ae4af,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：db48f14dd8a613363d9d72ebe179a23c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9e7051847f5be0c5f1b55a856f67d060,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f1fd993e2ff2c7fc203377d23825431e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1e3cb7d4119fdb7c4f0635b425de6d39,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：33675f593f0b966f80e83e16c0e91c59,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：20f83ad5defd9d2e382366463ece70dd,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bdf7f566a4bb1f3e37504431c8f03026,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：17572facc5f659ec4e235ef360589e78,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3bc96575824a5e09c8f8a366f0df3ac6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f4753abbf495cd978f5a3e1aae4e2f3c,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a47a04d2c16f99d2d5c9fe6a1de022cd,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5a3044e4e46cf1e7aae1f6d1b362621c,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：833404bca45034d6414eb489b0019ab6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c7acc8235ce799f4f23deee552914e39,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：687d9bbbef31e53c972031a301cf18e9,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a06f930b4eef1903486c5fe8ddd19297,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：619df019c9722f80ed31f67fc9f12d25,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7aa9197d6ddd062227b218dc9f9c22ea,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bb34e54795b7bcad9ba4c19f81e5062f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：996ae3486b41ad6c0203235042e7adea,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：724ba6b3a993cad187b808735a852d9d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2a2761a22c86bb25a877810f3a9ffd06,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：40c22f23f8aec9fc578f19bffe7c21b7,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2e66fbb289121fb983f323fe85e408ce,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1e98176d18d0d7ad0761af8509a32e39,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e50279f337a1ce9ab5e42573f1c2a694,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：4e4fdb11ebedf1a2726ed187d9a04764,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2293d102ff9dac537579107c6dbe8269,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：576582a26eee3f43a0ee8b32bab1b15a,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：42741d0e1e79dc5822ac1e701c187e09,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2d469291fcc650458b5acded98ab86af,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ce445aeef0dabdee85a5f693ce9a1ecc,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a30d992002039e8d32b55ebb54169198,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a44d8803c838192394abf80cddea4796,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：cb897c67df19510928344ef6b6432524,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9d695afb6463684b5b1660ccbc96ae09,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：5cb43e21834f402beeb0e4fd1bd20154,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2bd0578ec970dc5dd33d3efe1498d319,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a68ccdebd466d9a0d8d89578a0487857,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ab789553df26b328c74a889116025782,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6ceb07083966781dc072afb4ac140969,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：fcd5a52ad0d68727aea73b52b2a8b1f6,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f02d4f67aff1b211c3548bc5b764ad71,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d49868b59bdde27dd8dae9a3038b8cb2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：1b13b65ac488665eab647a5083906a26,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：2bbd47886f491c5fc0d6af06ed99e161,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：cdc816083fb13f4f244359fd66bb7e17,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：74e770ea629500a60703af7f88b30ae2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：786ca9a2aa11961e5c57f31d2d0cbea0,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：c1f6ca34dc8f021b47b7e612774529cf,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3187648e5619aa703535ee940afa4546,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：9ebaf3474e977c1df790e2eb85fb984b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3004991400b412e748f901b3eb62e77d,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：794c0ee941da87662d9a5764b786b6b7,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：996f43441b8b79991f948567462dff0f,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7fd822228b66dd96efa13da0877cf7da,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0dddea257221890f436dda683069d0ce,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：db443544374e2c9629efe40f290a86cc,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：aa8fa99dd615cd85b9e5f62e6da1750b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：7e323338f4aee50e4dbe1f7ce7f2a831,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ad5941949b2885cde6360d96bc5f0a73,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a99e3fa9eb9bd1337f296b1379641b04,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：8e1e79edbfbc9ef63604a215d9902e6a,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：0205705745bb4a312a18531a5e0d0a5e,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：a9b43594ca617c9e8d0bf63f169f4655,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：54c84aaba82118c4c16e135c3767db0b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：e19ad7a729eeeca965038defb20d860b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6d7b844eb4c454581f4867d3be616b25,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：ba1f353e9c22c0a1c8bed5c9b6018b03,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：bc8c15d243842a182b4245b7315f71f2,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：36db57eb611ed0f9792abf51b1dcced8,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：6e44af8c6d86eabed8e2fe3724b039a5,State：Modified
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：d00faa1e0efda93a427e6f3bca8cf6a3,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：b100d72c295f88e18d760e59bbad424b,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：f163ed62d518ab35fd24e3685efcb252,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：3cd5e39b20d79166689f3c45daa49c30,State：Unchanged
+[Info] @15:44:52_8725 #9 - 配置项缓存已同步，Id：188d650c219a7b4cc5dd9abcde24b93b,State：Modified
+[Debug] @15:44:52_8725 #9 - 结束配置项缓存同步，共同步 306 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:45:02_8856 #9 - 开始配置项缓存同步
+[Debug] @15:45:02_9480 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:45:12_9556 #9 - 开始配置项缓存同步
+[Debug] @15:45:13_1272 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:45:23_1409 #9 - 开始配置项缓存同步
+[Debug] @15:45:23_2501 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:45:33_2597 #9 - 开始配置项缓存同步
+[Debug] @15:45:33_3689 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:45:43_3755 #9 - 开始配置项缓存同步
+[Debug] @15:45:43_6095 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:45:53_6241 #9 - 开始配置项缓存同步
+[Debug] @15:45:53_7333 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:46:03_7461 #9 - 开始配置项缓存同步
+[Debug] @15:46:03_7773 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:46:13_7789 #9 - 开始配置项缓存同步
+[Debug] @15:46:14_1377 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:46:24_1461 #9 - 开始配置项缓存同步
+[Debug] @15:46:24_1461 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:46:34_1592 #9 - 开始配置项缓存同步
+[Debug] @15:46:34_2216 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:46:44_2316 #9 - 开始配置项缓存同步
+[Debug] @15:46:44_4032 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:46:54_4088 #9 - 开始配置项缓存同步
+[Debug] @15:46:54_6272 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:47:04_6358 #9 - 开始配置项缓存同步
+[Debug] @15:47:04_6358 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:47:14_6358 #9 - 开始配置项缓存同步
+[Debug] @15:47:14_6358 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:47:24_6415 #9 - 开始配置项缓存同步
+[Debug] @15:47:24_7507 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:47:34_7627 #9 - 开始配置项缓存同步
+[Debug] @15:47:34_8251 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:47:44_8297 #9 - 开始配置项缓存同步
+[Debug] @15:47:44_9077 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:47:54_9077 #9 - 开始配置项缓存同步
+[Debug] @15:47:56_7213 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:48:06_7359 #9 - 开始配置项缓存同步
+[Debug] @15:48:06_7359 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:48:16_7443 #9 - 开始配置项缓存同步
+[Debug] @15:48:16_7443 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:48:26_7557 #9 - 开始配置项缓存同步
+[Debug] @15:48:26_7557 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:48:36_7607 #9 - 开始配置项缓存同步
+[Debug] @15:48:36_7607 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:48:46_7714 #9 - 开始配置项缓存同步
+[Debug] @15:48:46_8182 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:48:56_8188 #9 - 开始配置项缓存同步
+[Debug] @15:48:56_9258 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:49:06_9301 #9 - 开始配置项缓存同步
+[Debug] @15:49:07_0705 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:49:17_0710 #9 - 开始配置项缓存同步
+[Debug] @15:49:17_2272 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:49:27_2322 #9 - 开始配置项缓存同步
+[Debug] @15:49:27_3450 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:49:37_3520 #9 - 开始配置项缓存同步
+[Debug] @15:49:37_5548 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:49:47_5664 #9 - 开始配置项缓存同步
+[Debug] @15:49:47_6834 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:49:57_6871 #9 - 开始配置项缓存同步
+[Debug] @15:49:57_8341 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:50:07_8348 #9 - 开始配置项缓存同步
+[Debug] @15:50:07_9502 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:50:17_9585 #9 - 开始配置项缓存同步
+[Error] @15:50:20_0261 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0520136 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:50:20_0261 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:50:30_0347 #9 - 开始配置项缓存同步
+[Error] @15:50:32_0566 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0218140 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:50:32_0566 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:50:42_0570 #9 - 开始配置项缓存同步
+[Error] @15:50:44_0868 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0288140 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:50:44_0868 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:50:54_0877 #9 - 开始配置项缓存同步
+[Error] @15:50:56_1041 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0154128 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:50:56_1041 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:51:06_1058 #9 - 开始配置项缓存同步
+[Error] @15:51:08_1458 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0400122 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:51:08_1458 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:51:18_1527 #9 - 开始配置项缓存同步
+[Error] @15:51:20_1695 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0168133 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:51:20_1695 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:51:30_1837 #9 - 开始配置项缓存同步
+[Error] @15:51:32_2015 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0178134 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:51:32_2015 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:51:42_2104 #9 - 开始配置项缓存同步
+[Error] @15:51:44_2300 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0196151 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:51:44_2300 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:51:54_2367 #9 - 开始配置项缓存同步
+[Error] @15:51:56_2435 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0068128 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:51:56_2435 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:52:06_2536 #9 - 开始配置项缓存同步
+[Error] @15:52:08_2708 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0172157 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:52:08_2708 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:52:18_2809 #9 - 开始配置项缓存同步
+[Error] @15:52:20_3013 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0204127 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:52:20_3013 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:52:30_3143 #9 - 开始配置项缓存同步
+[Error] @15:52:32_3352 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0208136 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:52:32_3352 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:52:42_3418 #9 - 开始配置项缓存同步
+[Error] @15:52:44_3626 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0208135 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:52:44_3626 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:52:54_3725 #9 - 开始配置项缓存同步
+[Error] @15:52:56_4049 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0324133 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:52:56_4049 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:53:06_4148 #9 - 开始配置项缓存同步
+[Error] @15:53:08_4352 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0204126 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:53:08_4352 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:53:18_4431 #9 - 开始配置项缓存同步
+[Error] @15:53:20_4805 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0374136 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:53:20_4805 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:53:30_4909 #9 - 开始配置项缓存同步
+[Error] @15:53:32_4934 #9 - 配置项缓存同步错误。 System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:02.0024116 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker()
+[Debug] @15:53:32_4934 #9 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-E1,休眠 10000 ms。
+[Debug] @15:53:42_4958 #9 - 开始配置项缓存同步
+[Info] @15:53:43_1218 #15 - AdhesiveFramework开始清理...
+[Debug] @15:53:43_1218 #15 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.AppInfoCenter.Imp.InitServiceTask' (挂载应用程序未处理异常、启动页面性能统计服务)
+[Debug] @15:53:43_1218 #15 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.Mongodb.Imp.InitServiceTask' (初始化Mongodb客户端服务)
+[Debug] @15:53:43_1218 #15 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.Config.Imp.InitServiceTask' ()
+[Debug] @15:53:43_1218 #15 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.MemoryQueue.Imp.RegisterServiceTask' ()
+[Debug] @15:53:43_1218 #15 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.Config.Imp.RegisterServiceTask' ()
+[Debug] @15:53:43_1218 #15 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.AppInfoCenter.Imp.RegisterServiceTask' (注册日志、异常、性能、状态服务)
+[Debug] @15:53:43_1218 #15 - AdhesiveFramework.Bootstrapper 开始清理 'Adhesive.Mongodb.Imp.RegisterServiceTask' ()
+[Info] @15:53:43_1218 #15 - AdhesiveFramework清理完成！

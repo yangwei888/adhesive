@@ -1,0 +1,16 @@
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.DistributedComponentClient.UnitTest.dll
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.DistributedComponentClient.UnitTest.pdb
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.Common.dll
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.DistributedComponentClient.dll
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Microsoft.Practices.Unity.dll
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.Config.dll
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.Common.pdb
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.DistributedComponentClient.pdb
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Microsoft.Practices.Unity.xml
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Adhesive.Config.pdb
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\obj\Release\Adhesive.DistributedComponentClient.UnitTest.csprojResolveAssemblyReference.cache
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\obj\Release\Adhesive.DistributedComponentClient.UnitTest.dll
+C:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.UnitTest\obj\Release\Adhesive.DistributedComponentClient.UnitTest.pdb

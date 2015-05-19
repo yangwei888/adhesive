@@ -1,0 +1,35 @@
+﻿[Info] @16:28:27_4533 #1 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Info] @16:28:27_5303 #1 - 开始初始化配置服务
+[Error] @16:28:29_5734 #1 - 初始化配置服务失败，异常信息：System.ServiceModel.EndpointNotFoundException: 无法连接到 net.tcp://localhost:18989/ConfigService。连接尝试持续了 00:00:01.9981143 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989。 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:18989
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.SocketConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnectionInitiator.Connect(Uri uri, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetConfigItem(String appName, String cateName, String itemName)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetConfigItem(String appName, String cateName, String itemName)
+   在 Adhesive.Config.Imp.ConfigService.RegisterApplication(String appName) 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 793
+   在 Adhesive.Config.Imp.ConfigService.Init() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 42
+   在 Adhesive.Config.Imp.InitServiceTask.Execute() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\InitServiceTask.cs:行号 28
+[Info] @16:28:29_5754 #1 - AdhesiveFramework启动完成！...版本号：2012-06-01-08

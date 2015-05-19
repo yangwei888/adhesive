@@ -1,0 +1,21 @@
+﻿[Info] @16:01:55_1892 #9 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Debug] @16:01:55_3608 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.RegisterServiceTask' ()
+[Debug] @16:01:55_3608 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.MemoryQueue.Imp.RegisterServiceTask' ()
+[Debug] @16:01:55_3608 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.RegisterServiceTask' ()
+[Debug] @16:01:55_3608 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Server.Imp.RegisterServiceTask' ()
+[Debug] @16:01:55_3608 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Config.Imp.InitServiceTask' ()
+[Info] @16:01:55_3608 #9 - 开始初始化配置服务
+[Info] @16:01:56_1564 #9 - 开始批量加载配置项
+[Info] @16:01:56_2656 #9 - 加载第 1 批配置项结束
+[Info] @16:01:56_2656 #9 - 结束批量加载配置项，共加载 469 个配置项。
+[Info] @16:01:56_2812 #9 - 结束初始化配置服务
+[Debug] @16:01:56_2812 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Imp.InitServiceTask' (初始化Mongodb客户端服务)
+[Debug] @16:01:56_2812 #9 - AdhesiveFramework.Bootstrapper 开始执行 'Adhesive.Mongodb.Server.Imp.InitServerTask' (初始化Mongodb服务端、进行第一次数据库元数据维护)
+[Debug] @16:01:56_2812 #12 - 开始配置项缓存同步
+[Debug] @16:01:56_2812 #12 - 结束配置项缓存同步，共同步 0 个配置项，本次同步版本号：00-00-00-00-00-00-0E-36,休眠 10000 ms。
+[Info] @16:01:56_2968 #9 - 分布式组件模块 AbstractClient GetClient 开始初始化集群 AdhesiveMemcached
+[Info] @16:01:56_3124 #9 - 分布式组件模块 ClientNode ClientNode 开始初始化一个新的节点：MemcachedNode1
+[Debug] @16:02:07_1406 #12 - 开始配置项缓存同步
+[Error] @16:02:08_0318 #9 - 分布式组件模块 ClientNode Init System.Exception: 连接到 192.168.0.204:11212 超过设定时间 5000 毫秒
+   在 Adhesive.DistributedComponentClient.ClientSocket.Connect(Int32 timeout) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientSocket.cs:行号 124
+   在 Adhesive.DistributedComponentClient.ClientNode.CreateClientSocket(Boolean isDirectSocket, Action`1 disposeAction, Action`1 lowlevelErrorAction, Action`1 highLevelErrorAction) 位置 c:\pls\vsonline\Adhesive\Adhesive.DistributedComponentClient.Imp\ClientNode.cs:行号 214

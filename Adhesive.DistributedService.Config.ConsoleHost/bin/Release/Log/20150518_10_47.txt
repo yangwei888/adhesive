@@ -1,0 +1,14 @@
+﻿[Info] @10:47:49_6906 #10 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Info] @10:48:44_3400 #10 - 开始初始化配置服务
+[Info] @10:49:32_9127 #10 - 开始批量加载配置项
+[Info] @10:49:32_9907 #10 - 加载第 1 批配置项结束
+[Info] @10:49:33_4295 #10 - 结束批量加载配置项，共加载 15 个配置项。
+[Info] @10:49:41_5072 #10 - 结束初始化配置服务
+[Info] @10:49:44_7279 #10 - AdhesiveFramework启动完成！...版本号：2012-06-01-08
+[Info] @10:49:44_7289 #6 - 获取 6 个变更的配置项
+[Info] @10:49:44_7289 #6 - 配置项缓存已同步，Id：53f03bf92d29ecdd2c17e7bc4aa092e7,State：Unchanged
+[Info] @10:49:44_7289 #6 - 配置项缓存已同步，Id：b07c85e35750090ea07933c5ad1a78ff,State：Unchanged
+[Info] @10:49:44_7289 #6 - 配置项缓存已同步，Id：8fdebd91a0198efcc1de60cbcc5c2d34,State：Unchanged
+[Info] @10:49:45_5835 #6 - 配置项缓存已同步，Id：6915d2dc5950f0b681390e5c82cf9773,State：Unchanged
+[Info] @10:49:45_5835 #6 - 配置项缓存已同步，Id：58cad282ac8be72c4956fefe1d1b502c,State：Unchanged
+[Info] @10:49:45_5835 #6 - 配置项缓存已同步，Id：6cf1bda1264f4829dd037142e6c71a8e,State：Unchanged

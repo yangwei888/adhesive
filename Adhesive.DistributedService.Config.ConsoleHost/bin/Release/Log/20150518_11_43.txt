@@ -1,0 +1,178 @@
+﻿[Info] @11:43:37_1357 #1 - AdhesiveFramework开始启动...版本号：2012-06-01-08
+[Info] @11:43:37_2137 #1 - 开始初始化配置服务
+[Info] @11:43:38_7893 #1 - 开始批量加载配置项
+[Info] @11:43:38_9141 #1 - 加载第 1 批配置项结束
+[Info] @11:43:39_0857 #1 - 结束批量加载配置项，共加载 462 个配置项。
+[Info] @11:43:39_1169 #1 - 结束初始化配置服务
+[Info] @11:43:39_1169 #1 - AdhesiveFramework启动完成！...版本号：2012-06-01-08
+[Error] @13:11:50_2077 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:13:00_7368 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:14:11_2479 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:15:21_7812 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:22:05_0097 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:28:07_1955 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:31:46_8358 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:42:48_6267 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Error] @13:55:04_7398 #5 - 配置项缓存同步错误。 System.TimeoutException: 发送到 net.tcp://localhost:18989/ConfigService 的请求操作在配置的超时(00:01:00)内未收到回复。分配给此操作的时间可能已经是更长超时的一部分。这可能由于服务仍在处理操作或服务无法发送回复消息。请考虑增加操作超时(将通道/代理转换为 IContextChannel 并设置 OperationTimeout 属性)并确保服务能够连接到客户端。
+
+Server stack trace: 
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+
+Exception rethrown at [1]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 Adhesive.Config.IConfigServer.GetLastUpdatedConfigItems(String appName, Byte[]& lastRowVersion, Boolean includeDeletedItems)
+   在 Adhesive.Config.Imp.ConfigService.SyncConfigCacheWorker() 位置 c:\pls\vsonline\Adhesive\Adhesive.Config.Imp\ConfigService.cs:行号 602
+[Info] @15:44:46_8117 #5 - 获取 1 个变更的配置项
+[Info] @15:44:46_8117 #5 - 配置项缓存已同步，Id：0223f4a8b317656586cd45b77332b984,State：Added
+[Info] @15:44:56_8640 #5 - 获取 6 个变更的配置项
+[Info] @15:44:56_8640 #5 - 配置项缓存已同步，Id：3df10357b00a516c57c85c399ad4e28c,State：Added
+[Info] @15:44:56_8640 #5 - 配置项缓存已同步，Id：9c54a653f474562caaa24e2d838a1b70,State：Added
+[Info] @15:44:56_8640 #5 - 配置项缓存已同步，Id：5c97b6a9f171879264fbef13bbfd21ea,State：Added
+[Info] @15:44:56_8640 #5 - 配置项缓存已同步，Id：061dd28d2e424525a48427c808276ca5,State：Added
+[Info] @15:44:56_8640 #5 - 配置项缓存已同步，Id：30bfb65bee1e188a327d6ac8e2c48179,State：Added
+[Info] @15:44:56_8640 #5 - 配置项缓存已同步，Id：dce5871d18c2eb456a659ce16df16a0a,State：Added

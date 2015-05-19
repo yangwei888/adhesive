@@ -1,0 +1,11 @@
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Adhesive.Common.dll
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Adhesive.Common.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Microsoft.Practices.Unity.dll
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Microsoft.Practices.Unity.xml
+C:\pls\vsonline\Adhesive\Adhesive.Common\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+C:\pls\vsonline\Adhesive\Adhesive.Common\obj\Release\Adhesive.Common.dll
+C:\pls\vsonline\Adhesive\Adhesive.Common\obj\Release\Adhesive.Common.pdb

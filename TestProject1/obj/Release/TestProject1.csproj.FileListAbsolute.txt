@@ -1,0 +1,7 @@
+C:\pls\vsonline\Adhesive\TestProject1\bin\Release\LoadTest1.loadtest
+C:\pls\vsonline\Adhesive\TestProject1\bin\Release\WebTest1.webtest
+C:\pls\vsonline\Adhesive\TestProject1\bin\Release\TestProject1.dll
+C:\pls\vsonline\Adhesive\TestProject1\bin\Release\TestProject1.pdb
+C:\pls\vsonline\Adhesive\TestProject1\obj\Release\TestProject1.csprojResolveAssemblyReference.cache
+C:\pls\vsonline\Adhesive\TestProject1\obj\Release\TestProject1.dll
+C:\pls\vsonline\Adhesive\TestProject1\obj\Release\TestProject1.pdb
